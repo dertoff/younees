@@ -1,0 +1,6 @@
+{
+  "name": "Exclusive Reward & Discount Page",
+  "description": "An exclusive promotional reward landing page featuring a Barnes & Noble aesthetic, step cards, and instant reward redemption.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

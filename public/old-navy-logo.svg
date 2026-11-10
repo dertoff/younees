@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 150" fill="none" role="img" aria-label="Old Navy Logo">
+  <!-- Old Navy Oval Badge -->
+  <ellipse cx="170" cy="75" rx="160" ry="65" fill="#002D56" />
+  <!-- Old Navy Typography -->
+  <text
+    x="170"
+    y="90"
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="'Arial Black', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    font-weight="900"
+    font-size="46"
+    letter-spacing="1.5"
+  >OLD NAVY</text>
+</svg>

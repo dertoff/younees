@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 140" width="640" height="140">
+  <g id="diamonds">
+    <!-- Left Blue Diamond -->
+    <polygon points="68,18 120,70 68,122 16,70" fill="#008FD5"/>
+    <!-- Right Green Diamond -->
+    <polygon points="104,18 156,70 104,122 52,70" fill="#509E2F"/>
+    <!-- Center Dark Blue Overlap -->
+    <polygon points="86,36 120,70 86,104 52,70" fill="#004F8A"/>
+  </g>
+
+  <!-- Sam's Club. Full Text with Complete 'b' and Period -->
+  <g fill="#004B87">
+    <text x="172" y="94" 
+          font-family="'Baskerville', 'Times New Roman', 'Georgia', 'Cambria', serif" 
+          font-size="78" 
+          font-weight="600" 
+          letter-spacing="-1">Sam’s Club.</text>
+    <circle cx="582" cy="96" r="5.5" fill="none" stroke="#004B87" stroke-width="1.2"/>
+    <text x="582" y="99" font-family="sans-serif" font-size="7.5" font-weight="bold" text-anchor="middle">R</text>
+  </g>
+</svg>

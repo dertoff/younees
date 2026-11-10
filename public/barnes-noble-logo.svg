@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 100" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&amp;display=swap');
+      .bn-serif {
+        font-family: 'Playfair Display', 'Libre Baskerville', 'Didot', 'Bodoni MT', Georgia, serif;
+        font-weight: 800;
+        letter-spacing: 3.5px;
+      }
+      .bn-green {
+        fill: #113828;
+      }
+      .bn-orange {
+        fill: #D1681D;
+        font-family: 'Playfair Display', Georgia, serif;
+        font-style: italic;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <!-- Transparent / Clean Background -->
+  <g transform="translate(20, 68)">
+    <!-- BARNES -->
+    <text x="0" y="0" class="bn-serif bn-green" font-size="56" transform="scale(0.85, 1.25)">BARNES</text>
+    <!-- & -->
+    <text x="328" y="2" class="bn-orange" font-size="64" font-weight="700">&amp;</text>
+    <!-- NOBLE -->
+    <text x="408" y="0" class="bn-serif bn-green" font-size="56" transform="scale(0.85, 1.25)">NOBLE</text>
+  </g>
+</svg>

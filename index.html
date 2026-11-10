@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var currentFetch = originalFetch ? originalFetch.bind(window) : undefined;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return currentFetch;
+            },
+            set: function(fn) {
+              currentFetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          console.warn('Fetch setter patch warning:', e);
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#004B87" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>Sam's Club - Get Up to $500 Discount Code</title>
+    <meta name="title" content="Sam's Club - Get Up to $500 Discount Code" />
+    <meta
+      name="description"
+      content="Get up to $500 Sam's Club shopping reward coupon today! Complete quick sponsor deals to unlock your wholesale club voucher."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sam's Club - Get Up to $500 Discount Code" />
+    <meta
+      property="og:description"
+      content="Get up to $500 Sam's Club shopping reward coupon today! Complete quick sponsor deals to unlock your wholesale club voucher."
+    />
+    <meta property="og:image" content="/sams-club-logo.svg" />
+    <meta property="og:site_name" content="Exclusive Rewards" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sam's Club - Get Up to $500 Discount Code" />
+    <meta
+      name="twitter:description"
+      content="Get up to $500 Sam's Club shopping reward coupon today! Complete quick sponsor deals to unlock your wholesale club voucher."
+    />
+    <meta name="twitter:image" content="/sams-club-logo.svg" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=hl" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=hl" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=hl" />
+    <link rel="apple-touch-icon" href="/favicon.png?v=hl" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
